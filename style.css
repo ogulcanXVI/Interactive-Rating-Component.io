@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 15px;
+}
+
+main {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+}
+
+.container {
+    flex-direction: column;
+    padding: 30px;
+}
+
+.container img {
+    width: 5%;
+    background-color: hsl(213, 19%, 22%);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+h1 {
+    color: hsla(0, 0%, 100%, 0.9);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 10px;
+    max-width: 330px;
+    line-height: 1.7;
+
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.rating button {
+    color: hsla(0, 0%, 100%, 0.5);
+    display: flex;
+    background-color: hsl(213, 19%, 22%);
+    border: none;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.1em;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.rating button:hover {
+    color: #fff;
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+.rate.active {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+.submit {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 15px 40%;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: hsla(25, 97%, 53%, 0.9);
+    border: none;
+    border-radius: 30px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: hsla(25, 97%, 53%, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Page 2 */
+.page2 img {
+    display: flex;
+    border-radius: none;
+    background-color: hsl(213, 19%, 18%);
+    width: 50%;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.page2 h1 {
+    color: hsla(0, 0%, 100%, 0.9);
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.page2 p {
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 10px;
+    max-width: 330px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.page2 .rated {
+    background-color: hsl(214, 18%, 25%);
+    color: hsla(25, 97%, 53%, 0.9);
+    padding: 5px 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin: 10px auto;
+}
